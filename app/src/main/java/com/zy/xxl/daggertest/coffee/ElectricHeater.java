@@ -1,5 +1,8 @@
 package com.zy.xxl.daggertest.coffee;
 
+/**
+ * 电动加热器
+ */
 class ElectricHeater implements Heater {
   boolean heating;
 

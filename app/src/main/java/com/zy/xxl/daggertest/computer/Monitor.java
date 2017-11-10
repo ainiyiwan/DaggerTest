@@ -10,6 +10,6 @@ package com.zy.xxl.daggertest.computer;
 /**
  * 显示器
  */
-public interface Monitor {
-    void display();
+interface Monitor {
+    void   display();
 }

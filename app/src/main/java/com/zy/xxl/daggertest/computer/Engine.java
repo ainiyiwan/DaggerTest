@@ -10,7 +10,11 @@ package com.zy.xxl.daggertest.computer;
 /**
  * 主机
  */
-public interface Engine {
+interface Engine {
 
-    void work();
+    void start();
+
+    boolean work();
+
+    void off();
 }

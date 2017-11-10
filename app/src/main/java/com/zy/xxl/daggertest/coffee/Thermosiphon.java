@@ -2,6 +2,9 @@ package com.zy.xxl.daggertest.coffee;
 
 import javax.inject.Inject;
 
+/**
+ * 热虹吸管
+ */
 class Thermosiphon implements Pump {
   private final Heater heater;
 
